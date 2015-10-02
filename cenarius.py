@@ -148,9 +148,9 @@ if '1' =="1" :
  #the most important info :D           
         
         
-    a4 = raw_input("write the bssid you want choose : ")
-    a5 = raw_input("write the level of the net work : ")
-    a6 = raw_input("write the ussid of the net work : ")
+    a4 = raw_input("write the bssid you want choose : ")#mac
+    a5 = raw_input("write the level of the net work : ")#one level not all 
+    a6 = raw_input("write the ussid of the net work : ")#ssid of wifi
     a5 = a5.replace('-preauth' , '')
     a5 = a5.replace('-PIN' , '')
 
