@@ -19,6 +19,7 @@ and hide network too But don,t write the ussid if the AP is hide .
   
   _dont try too much wifi in the same time just and only one ._
 
+  _securty is under [] ex: [WPA2-PSK-CCMP+TKIP] , [WPS] , [WEP] not all [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]_
 
 
 #idea
