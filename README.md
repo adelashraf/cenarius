@@ -12,7 +12,7 @@ and hide network too But don,t write the ussid if the AP is hide .
   
   _just generate *(psk generate) ._
 
-  _6 pass in 1 min (6500 psk pass ) *all in the world._
+  _8 pass in 1 min (6500 psk pass ) *all in the world._
 
 #warning
   _dont connect to wifi when use it ._
