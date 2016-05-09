@@ -15,7 +15,7 @@ _3rd Write Security ex: between '[]' Not All ._
 
 _4th Write ussid for AP if not hidden ._
 
-_you will get file to scan APs , file recording all what you do and file of wpa_supplicant ._
+__you will get file to scan APs , file recording all what you do and file of wpa_supplicant .__
 
 
 # what is Different
@@ -26,7 +26,7 @@ _you will get file to scan APs , file recording all what you do and file of wpa_
   
   _just generate *(psk generate) ._
 
-  _8 pass in 1 min (6500 psk pass ) *all in the world._
+  _8 pass in 1 min ._
 
 #warning
   _dont connect to wifi when use it ._
