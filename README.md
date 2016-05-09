@@ -27,9 +27,9 @@ and hide network too But don,t write the ussid if the AP is hide .
 # What you need to open it 
 _cenarius for Linux only._
 * [__Python 2.7.x__](http://python.org/getit/). 
-* xdotool .
-* wpasupplicant especially wpa_cli .
-* PBKDF2 for python .
+* [xdotool](https://github.com/jordansissel/xdotool) .
+* [wpasupplicant](https://w1.fi/wpa_supplicant/) especially [wpa_cli](linux.die.net/man/8/wpa_cli) .
+* [PBKDF2](https://pypi.python.org/pypi/pbkdf2) for python .
   
 # have fun for cracking ^_^
 <a href="https://www.facebook.com/adeltttttt" title="Adel Ashraf" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;" target="_TOP">Adel Ashraf</a><br /><a href="https://www.facebook.com/adeltttttt" title="Adel Ashraf" target="_TOP"><img class="img" src="https://badge.facebook.com/badge/100002249472425.1808.149278868.png" style="border: 0px;" alt="" /></a>
