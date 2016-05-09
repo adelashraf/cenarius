@@ -2,8 +2,21 @@
 # cenarius
 ======
 cenarius tool for crack
-wpa wpa2 wep .
-and hide network too But don,t write the ussid if the AP is hide . 
+wpa wpa2 wep and wps pin supported.
+and hide network too
+
+ But don,t write the ussid if the AP is hide . 
+
+_1st Write iface ._
+
+_2nd Write Mac address ._
+
+_3rd Write Security ex: between '[]' Not All ._
+
+_4th Write ussid for AP if not hidden _
+
+
+
 # what is Different
 -------------------
   _You do not need to worldlist ._
@@ -19,7 +32,7 @@ and hide network too But don,t write the ussid if the AP is hide .
   
   _dont try too much wifi in the same time just and only one ._
 
-  _securty is under [] ex: [WPA2-PSK-CCMP+TKIP] , [WPS] , [WEP] not all [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS]_
+  _securty is under [] ex: [WPA2-PSK-CCMP+TKIP] , [WPS] , [WEP] not all [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS] and ever never for ever write [ESS] not supported yet _
 
 
 #idea
