@@ -13,8 +13,9 @@ _2nd Write Mac address ._
 
 _3rd Write Security ex: between '[]' Not All ._
 
-_4th Write ussid for AP if not hidden _
+_4th Write ussid for AP if not hidden ._
 
+_you will get file to scan APs , file recording all what you do and file of wpa_supplicant ._
 
 
 # what is Different
