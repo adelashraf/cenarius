@@ -33,14 +33,14 @@ _you will get file to scan APs , file recording all what you do and file of wpa_
   
   _dont try too much wifi in the same time just and only one ._
 
-  _securty is under [] ex: [WPA2-PSK-CCMP+TKIP] , [WPS] , [WEP] not all [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS] and ever never for ever write [ESS] not supported yet _
+  _securty is under [] ex: [WPA2-PSK-CCMP+TKIP] , [WPS] , [WEP] not all [WPA-PSK-CCMP+TKIP][WPA2-PSK-CCMP+TKIP][ESS] and ever never for ever write [ESS] not supported yet ._
 
 
 #idea
   from ["wifite"](https://github.com/derv82/wifite) tool .
 # What you need to open it 
 _cenarius for Linux only._
-* [__Python 2.7.x__](http://python.org/getit/). 
+* [__Python 2.7.x__](http://python.org/getit/).
 * [xdotool](https://github.com/jordansissel/xdotool) .
 * [wpasupplicant](https://w1.fi/wpa_supplicant/) especially [wpa_cli](linux.die.net/man/8/wpa_cli) .
 * [PBKDF2](https://pypi.python.org/pypi/pbkdf2) for python .
